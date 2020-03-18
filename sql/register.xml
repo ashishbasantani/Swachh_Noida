@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Jun 18, 2019 at 04:14 PM
+- Server version: 5.7.24
+- PHP Version: 7.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id8565603_eco" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="register">
+                CREATE TABLE `register` (
+                  `uid` varchar(11) NOT NULL,
+                  `uid2` varchar(40) NOT NULL,
+                  `fname` varchar(200) NOT NULL,
+                  `lname` varchar(200) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  `email` varchar(1000) NOT NULL,
+                  `mobile` varchar(13) NOT NULL,
+                  PRIMARY KEY (`uid`),
+                  UNIQUE KEY `mobile` (`mobile`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id8565603_eco'
+    -->
+    <database name="id8565603_eco">
+        <!-- Table register -->
+        <table name="register">
+            <column name="uid">U0001</column>
+            <column name="uid2">1</column>
+            <column name="fname">Yash</column>
+            <column name="lname">Kesarwani</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">11kesarwaniyash@gmail.com</column>
+            <column name="mobile">8418867460</column>
+        </table>
+        <table name="register">
+            <column name="uid">U0002</column>
+            <column name="uid2">2</column>
+            <column name="fname">Abc</column>
+            <column name="lname">Xyz</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">xyz@abc.com</column>
+            <column name="mobile">8466565926</column>
+        </table>
+        <table name="register">
+            <column name="uid">U0003</column>
+            <column name="uid2">3</column>
+            <column name="fname">Abc</column>
+            <column name="lname">Xyz</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">abcXYZ@gmail.com</column>
+            <column name="mobile">9663214578</column>
+        </table>
+        <table name="register">
+            <column name="uid">U0004</column>
+            <column name="uid2">4</column>
+            <column name="fname">Akshay</column>
+            <column name="lname">Singh</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">as@gmail.com</column>
+            <column name="mobile">9632101465</column>
+        </table>
+    </database>
+</pma_xml_export>

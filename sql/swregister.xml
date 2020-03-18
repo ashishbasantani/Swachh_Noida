@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Jun 18, 2019 at 04:15 PM
+- Server version: 5.7.24
+- PHP Version: 7.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id8565603_eco" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="swregister">
+                CREATE TABLE `swregister` (
+                  `wid` varchar(20) NOT NULL,
+                  `fname` varchar(200) NOT NULL,
+                  `lname` varchar(200) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  `email` varchar(1000) NOT NULL,
+                  `mobile` varchar(13) NOT NULL,
+                  `upic` varchar(1000) NOT NULL,
+                  PRIMARY KEY (`wid`),
+                  UNIQUE KEY `mobile` (`mobile`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id8565603_eco'
+    -->
+    <database name="id8565603_eco">
+        <!-- Table swregister -->
+        <table name="swregister">
+            <column name="wid">W012</column>
+            <column name="fname">Yash</column>
+            <column name="lname">Kesarwani</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">11kesarwaniyash@gmail.com</column>
+            <column name="mobile">8418867460</column>
+            <column name="upic">Users/Userpics/46545.png</column>
+        </table>
+        <table name="swregister">
+            <column name="wid">W0001</column>
+            <column name="fname">Yash</column>
+            <column name="lname">Kesarwani</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">11kesarwaniyash@gmail.com</column>
+            <column name="mobile">8418867463</column>
+            <column name="upic">Users/Userpics/51294647_10158487400779578_3146184778361864192_n.jpg</column>
+        </table>
+        <table name="swregister">
+            <column name="wid">W0002</column>
+            <column name="fname">Yash </column>
+            <column name="lname">Kesarwani</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">11Kesarwaniyash@gmail.com</column>
+            <column name="mobile">811867460</column>
+            <column name="upic">Workers/Userpics/51294647_10158487400779578_3146184778361864192_n.jpg</column>
+        </table>
+        <table name="swregister">
+            <column name="wid">W0003</column>
+            <column name="fname">ABc</column>
+            <column name="lname">Xyz</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">abc@xyz.com</column>
+            <column name="mobile">963266666</column>
+            <column name="upic">Workers/Userpics/letter.png</column>
+        </table>
+        <table name="swregister">
+            <column name="wid">W0004</column>
+            <column name="fname">Suraj</column>
+            <column name="lname">Singh</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">ss@gmail.com</column>
+            <column name="mobile">9874102365</column>
+            <column name="upic">Workers/Userpics/index.jpg</column>
+        </table>
+    </database>
+</pma_xml_export>

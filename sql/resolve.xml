@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Jun 18, 2019 at 04:14 PM
+- Server version: 5.7.24
+- PHP Version: 7.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id8565603_eco" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="resolve">
+                CREATE TABLE `resolve` (
+                  `cid` varchar(20) NOT NULL,
+                  `cid2` varchar(200) NOT NULL,
+                  `uid` varchar(20) NOT NULL,
+                  `com_desc` varchar(2000) NOT NULL,
+                  `com_loc_long` float NOT NULL,
+                  `com_loc_lati` float NOT NULL,
+                  `com_res_loc_long` float NOT NULL,
+                  `com_res_loc_lati` float NOT NULL,
+                  `com_img` varchar(1000) NOT NULL,
+                  `com_res_img` varchar(1000) NOT NULL,
+                  `com_res_img2` varchar(1000) DEFAULT NULL,
+                  `status` varchar(20) NOT NULL,
+                  `wid` varchar(40) NOT NULL,
+                  PRIMARY KEY (`cid`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id8565603_eco'
+    -->
+    <database name="id8565603_eco">
+        <!-- Table resolve -->
+        <table name="resolve">
+            <column name="cid">C0003</column>
+            <column name="cid2">3</column>
+            <column name="uid">U0002</column>
+            <column name="com_desc">Garbage Removal</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_res_loc_long">76.8159</column>
+            <column name="com_res_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Resolved/anim1.jpg</column>
+            <column name="com_res_img">Complaints/Resolved/anim1.jpg</column>
+            <column name="com_res_img2">Complaints/Resolved/anim1.jpg</column>
+            <column name="status">Resolved</column>
+            <column name="wid">W0002</column>
+        </table>
+        <table name="resolve">
+            <column name="cid">C0001</column>
+            <column name="cid2">1</column>
+            <column name="uid">U0002</column>
+            <column name="com_desc">Litters</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_res_loc_long">76.8159</column>
+            <column name="com_res_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Resolved/Capture001.png</column>
+            <column name="com_res_img">Complaints/Resolved/Capture001.png</column>
+            <column name="com_res_img2">Complaints/Resolved/Capture001.png</column>
+            <column name="status">Completed</column>
+            <column name="wid">W0001</column>
+        </table>
+        <table name="resolve">
+            <column name="cid">C0002</column>
+            <column name="cid2">2</column>
+            <column name="uid">U0002</column>
+            <column name="com_desc">Garbage Floating</column>
+            <column name="com_loc_long">80.803</column>
+            <column name="com_loc_lati">80.83</column>
+            <column name="com_res_loc_long">76.817</column>
+            <column name="com_res_loc_lati">29.9433</column>
+            <column name="com_img">Complaints/Pending/1.png</column>
+            <column name="com_res_img">../Users/Complaints/Resolved/1.png</column>
+            <column name="com_res_img2">../Users/Complaints/Resolved/46545.png</column>
+            <column name="status">Resolved</column>
+            <column name="wid">-1</column>
+        </table>
+    </database>
+</pma_xml_export>

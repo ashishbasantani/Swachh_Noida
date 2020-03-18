@@ -1,0 +1,42 @@
+<style>
+#footer
+{	
+	margin-bottom:0px;margin-top:10%;font-size:15px;
+	background-color:black;height:15%;width:100%;color:white;padding:2%
+	position:absolute;
+	bottom:0px;
+}
+#d3 /* for swach bharat image */
+{
+	position:absolute;
+	left:0px;
+	top:250px:
+}
+#d4 /* for swach bharat content */
+{
+	position:absolute;
+	left:600px;
+	top:250px:
+}
+#d5 /* Register page content */
+{
+	position:absolute;
+	left: 30%;
+	top:150px;
+	border: 2px solid black;
+}
+#d6 /*User login page */
+{
+	background: url("Images/index1.jpg");
+	position:absolute;
+	left:30%;
+	top:150px;
+	border:2px solid black;
+	border-radius:5px;
+}
+#d7 /*for register new complain */
+{
+	
+	border: 2px solid gray;
+	border-radius:3px;
+}

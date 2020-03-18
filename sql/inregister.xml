@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Jun 18, 2019 at 04:15 PM
+- Server version: 5.7.24
+- PHP Version: 7.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id8565603_eco" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="inregister">
+                CREATE TABLE `inregister` (
+                  `iid` varchar(20) NOT NULL,
+                  `fname` varchar(50) NOT NULL,
+                  `lname` varchar(50) NOT NULL,
+                  `password` varchar(40) NOT NULL,
+                  `email` varchar(1000) NOT NULL,
+                  `mobile` varchar(13) DEFAULT NULL,
+                  PRIMARY KEY (`iid`),
+                  UNIQUE KEY `mobile` (`mobile`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id8565603_eco'
+    -->
+    <database name="id8565603_eco">
+        <!-- Table inregister -->
+        <table name="inregister">
+            <column name="iid">E11</column>
+            <column name="fname">Yash</column>
+            <column name="lname">keasa</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">11keas@gmail.com</column>
+            <column name="mobile">8418867460</column>
+        </table>
+        <table name="inregister">
+            <column name="iid">125</column>
+            <column name="fname">Ashish</column>
+            <column name="lname">Basantani</column>
+            <column name="password">1ba8dee24a4d6980affce013ab8186d23c0f7968</column>
+            <column name="email">ashishbasantani77@gmail.com</column>
+            <column name="mobile">8871308703</column>
+        </table>
+        <table name="inregister">
+            <column name="iid">I0001</column>
+            <column name="fname">Amay</column>
+            <column name="lname">Shukla</column>
+            <column name="password">8cb2237d0679ca88db6464eac60da96345513964</column>
+            <column name="email">am@gmail.com</column>
+            <column name="mobile">9632015478</column>
+        </table>
+    </database>
+</pma_xml_export>

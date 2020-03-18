@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Jun 18, 2019 at 04:14 PM
+- Server version: 5.7.24
+- PHP Version: 7.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id8565603_eco" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="pending">
+                CREATE TABLE `pending` (
+                  `cid` varchar(20) NOT NULL,
+                  `cid2` varchar(40) NOT NULL,
+                  `uid` varchar(20) NOT NULL,
+                  `com_desc` varchar(2000) NOT NULL,
+                  `com_loc_long` float NOT NULL,
+                  `com_loc_lati` float NOT NULL,
+                  `com_img` varchar(1000) NOT NULL,
+                  `status` varchar(200) NOT NULL,
+                  PRIMARY KEY (`cid`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id8565603_eco'
+    -->
+    <database name="id8565603_eco">
+        <!-- Table pending -->
+        <table name="pending">
+            <column name="cid">C1</column>
+            <column name="cid2">1</column>
+            <column name="uid">U1</column>
+            <column name="com_desc">Garbage litter</column>
+            <column name="com_loc_long">70.115</column>
+            <column name="com_loc_lati">22.1046</column>
+            <column name="com_img">kasfhisdhhdkhuiy</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">c</column>
+            <column name="cid2">3</column>
+            <column name="uid">a</column>
+            <column name="com_desc">ab</column>
+            <column name="com_loc_long">75.2123</column>
+            <column name="com_loc_lati">24.2316</column>
+            <column name="com_img">Complaints/Pending/Screenshot (32).png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">12</column>
+            <column name="cid2">4</column>
+            <column name="uid">10</column>
+            <column name="com_desc">Garbage</column>
+            <column name="com_loc_long">76.5122</column>
+            <column name="com_loc_lati">23.9482</column>
+            <column name="com_img">Complaints/Pending/Screenshot (32).png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">10</column>
+            <column name="cid2">5</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Uncle Chips</column>
+            <column name="com_loc_long">74.2311</column>
+            <column name="com_loc_lati">26.2362</column>
+            <column name="com_img">Complaints/Pending/Screenshot (32).png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">11</column>
+            <column name="cid2">6</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">jgmhrftyftyue4w5w</column>
+            <column name="com_loc_long">77.4818</column>
+            <column name="com_loc_lati">28.472</column>
+            <column name="com_img">Complaints/Pending/Screenshot (1).png</column>
+            <column name="status">stsus</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00007</column>
+            <column name="cid2">7</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc"></column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Pending/Screenshot (40).png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00008</column>
+            <column name="cid2">8</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">asdbsjfbsfb</column>
+            <column name="com_loc_long">76.817</column>
+            <column name="com_loc_lati">29.9434</column>
+            <column name="com_img">Complaints/Pending/sample.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00009</column>
+            <column name="cid2">9</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">dhdhkdfh</column>
+            <column name="com_loc_long">76.817</column>
+            <column name="com_loc_lati">29.9434</column>
+            <column name="com_img">Complaints/Pending/IMP.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00010</column>
+            <column name="cid2">10</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Bahkh</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Pending/qqq.tif</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00011</column>
+            <column name="cid2">11</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Bjhkhkdsfdgfgdf</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9483</column>
+            <column name="com_img">Complaints/Pending/Capture001.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00012</column>
+            <column name="cid2">12</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Abcjjksa</column>
+            <column name="com_loc_long">75.1229</column>
+            <column name="com_loc_lati">23.3211</column>
+            <column name="com_img">Complaints/Pending/Capture001.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00013</column>
+            <column name="cid2">13</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Hlllo</column>
+            <column name="com_loc_long">76.2663</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Pending/Capture001.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00014</column>
+            <column name="cid2">14</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">jgjgjgjhgjgjgjhghg</column>
+            <column name="com_loc_long">76.8942</column>
+            <column name="com_loc_lati">23.3363</column>
+            <column name="com_img">Complaints/Pending/Capture001.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00015</column>
+            <column name="cid2">15</column>
+            <column name="uid">U0002</column>
+            <column name="com_desc">Garbage floating</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Resolved/Capture001.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00016</column>
+            <column name="cid2">16</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">New Garbage</column>
+            <column name="com_loc_long">76.8159</column>
+            <column name="com_loc_lati">29.9482</column>
+            <column name="com_img">Complaints/Pending/index1.jpg</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00017</column>
+            <column name="cid2">17</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Garbage on road</column>
+            <column name="com_loc_long">80.9462</column>
+            <column name="com_loc_lati">26.8467</column>
+            <column name="com_img">Complaints/Pending/46545.png</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00018</column>
+            <column name="cid2">18</column>
+            <column name="uid">U0001</column>
+            <column name="com_desc">Lot of Garbage</column>
+            <column name="com_loc_long">80.9462</column>
+            <column name="com_loc_lati">26.8467</column>
+            <column name="com_img">Complaints/Pending/51294647_10158487400779578_3146184778361864192_n.jpg</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00020</column>
+            <column name="cid2">20</column>
+            <column name="uid">U0004</column>
+            <column name="com_desc">chips packet </column>
+            <column name="com_loc_long">76.817</column>
+            <column name="com_loc_lati">29.9434</column>
+            <column name="com_img">Complaints/Pending/qqq.tif</column>
+            <column name="status">Pending</column>
+        </table>
+        <table name="pending">
+            <column name="cid">C00019</column>
+            <column name="cid2">19</column>
+            <column name="uid">U0004</column>
+            <column name="com_desc">Garbage located</column>
+            <column name="com_loc_long">76.817</column>
+            <column name="com_loc_lati">29.9434</column>
+            <column name="com_img">Complaints/Pending/type casting.png</column>
+            <column name="status">Pending</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,13 @@
+<div id="d1" style="height:100px;width:100px;border:2px solid black;">
+</div>
+<script>
+	function get(filename) {
+	fetch(filename).then((resp) => resp.text()).then(function(data) {
+		temp = data;
+		document.getElementById("d1").innerHTML=temp;
+	});
+}
+
+</script>
+
+<button onclick=get("https://us1.locationiq.com/v1/reverse.php?key=5f0c8819bfdb2d&lat=29.9481278&lon=76.81590829999999&format=json")>Go</button>
