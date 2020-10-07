@@ -34,5 +34,3 @@ India is a country of responsible citizens. Whenever we see garbage littering in
 - WAMP Server
 - Tested on Firefox and Android version 6
 
-## Contributors
-- **@ghostman-007**
